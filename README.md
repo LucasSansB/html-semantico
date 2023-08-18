@@ -33,6 +33,7 @@ Teste do *Itálico*
 ![Cueio](https://www.rbsdirect.com.br/imagesrc/24899215.jpg?w=700)
 
 >Só sei que nada sei (Não lembro)
+>Sou talarico (Thiago)
 
 Método `console.log()` no javascript<br>
 ttt<br>
