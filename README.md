@@ -57,3 +57,4 @@ Pastel | R$ 10
 X-Burguer | R$ 8
 Batata Frita | R$ 7
 Pizza | R$ 30
+Doce | R$ 3
