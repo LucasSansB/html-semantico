@@ -13,7 +13,7 @@ Teste do *Itálico*
 * Nori
 * Temaki
 * Shoyu
-* Gohan
+* Gohan sz
 
 - Banana
 - Maça
