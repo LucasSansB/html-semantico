@@ -5,82 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semântico</title>
     <link rel="stylesheet" href="./style.css">
-    <style>
-        body {
-            color:crimson;
-        }
-    </style>
+    
 </head>
 <body>
-    <nav>
-        <h3 id="topo">Lorem ipsum dolor.</h3>
-            <ul>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#sobre-nos">Sobre nós</a>
-                </li>
-                <li>
-                    <a href="#contato">Contatos</a>
-                </li>
-            </ul>
-    </nav>
-    <h1>Lorem ipsum dolor</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum error beatae debitis quidem cum, optio excepturi tempore, deserunt consequuntur praesentium natus eligendi amet adipisci est obcaecati cupiditate, reiciendis officia possimus.</p>
-    
-    <h2>Lorem ipsum dolor</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore alias ad consequuntur facilis ea deleniti quasi in repellat nam ullam inventore officiis quae voluptatem voluptates dignissimos velit, a quia ab?</p>
-    
-    <article>
-        <header>
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ab.</h1>
-
-            <p>Lorem ipsum dolor sit</p>
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae ut veritatis quam corrupti qui autem quaerat distinctio? Similique sed expedita quibusdam enim sequi repellendus a architecto, maxime voluptatibus alias eveniet!</p>
-
-        </header>
-    </article>
-    <article>
-        <header>
-            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio enim, placeat voluptatum tempore dolore quae excepturi autem ratione laudantium, delectus totam cum doloremque sed inventore eius, eum reprehenderit libero est?</h1>
-            <p>Lorem ipsum dolor sit</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae ut veritatis quam corrupti qui autem quaerat distinctio? Similique sed expedita quibusdam enim sequi repellendus a architecto, maxime voluptatibus alias eveniet!</p>
-        </header>
-    </article>
-
-    <section id="sobre-nos">
-
-        <h2>Sobre nós</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos officiis suscipit tenetur dolores porro in ipsam cupiditate magni aspernatur, aliquid quos, earum laboriosam maxime deserunt.</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores aliquid, minus iste quos nemo dignissimos magnam! Nam harum sint officiis minus dolor aperiam, odio error, odit voluptates maiores vitae temporibus, eaque facilis ullam expedita.</p>
-
-    </section>
-    <br>
-    <br>
-    <section id="contato">
-
-        <h2>Contato</h2>
-        <h1>Ford &lt;ENTER&gt; </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, labore ratione maxime, culpa ea natus officiis veritatis nisi quasi molestias est quae necessitatibus corporis velit commodi dolores expedita illum sunt nihil possimus sint! Ullam, perspiciatis?</p>
-        <h2><a href="#topo">Voltar ao Topo da Página</a></h2>
-
-    </section>
-
-    <footer>
-        <!-- P R O I B I D O ! ! ! -->
-        <!-- <header></header> -->
-        <p>
-            Link para o meu<a href="https://github.com/LucasSansB"> GitHub</a>
-        </p>
-    </footer>
     <header>
-        <h1>HTML Semântico</h1>
-        <h2>Dando significado às estruturas</h2>
-        <p>Vamos utilizar estruturas semânticas para marcar o conteudo da página</p>
+        <h1>Explorando as Tags Semânticas do HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#secao1">Sobre a Tag <code>&lt;article&gt;</code></a></li>
+                <li><a href="#secao2">Sobre a Tag <code>&lt;aside&gt;</code></a></li>
+                <li><a href="#secao3">Sobre a Tag <code>&lt;footer&gt;</code></a></li>
+                <li><a href="#secao4">Sobre a Tag <code>&lt;blockquote&gt;</code></a></li>
+                <li><a href="#secao5">Sobre a Tag <code>&lt;datails&gt;</code></a></li>
+                <li><a href="#secao5">Sobre a Tag <code>&lt;figure&gt;</code></a></li>
+                <li><a href="#sobre">Sobre nós</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
     </header>
+    <section id="introducao">
+        <article>
+            <h2>O que são Tags Semânticas?</h2>
+            <p>As tags <em>semânticas</em> do <strong>HTML</strong> são elementos que conferem significado ao conteúdo, permitindo uma melhor compreensão tanto para os desenvolvedores quanto para os mecanismos de busca.</p>
+            <p>Elas ajudam a estruturar o conteúdo de forma mais clara e organizada, contribuindo para a acessibilidade e usabilidade do site.</p>
+            <p>Serão apresentados a seguintes Tags:</p>
+            <ul>
+                <li><code>&lt;article&gt;</code></li>
+                <li><code>&lt;aside&gt;</code></li>
+                <li><code>&lt;footer&gt;</code></li>
+                <li><code>&lt;blockquote&gt;</code></li>
+                <li><code>&lt;datails&gt;</code></li>
+                <li><code>&lt;figure&gt;</code></li>
+            </ul>
+        </article>
+    </section>
+    <section id="secao1">
+        <article>
+            <h2>Sobre a Tag <code>&lt;article&gt;</code></h2>
+            <p>A <code>&lt;article&gt;</code> é uma das tags semanticas, responsavel por fazer as seções de artigos em sites de noticias, também auxilia na questão de catalização de pesquisa do gênero</p>
+            <h3>Exemplo de uso:</h3>
+            <pre>
+            &lt;article&gt;
+                &lt;h2&gt;Google Chrome&lt;/h2&gt;
+                &lt;p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!&lt;/p&gt;
+            &lt;/article&gt;
+            </pre>
+            <h4>Fonte: <a href="https://www.w3schools.com/tags/tag_article.asp">w3schools</a></h4>
+        </article>
+    </section>
+    <section id="secao2">
+        <article>
+            <h2>Sobre a Tag <code>&lt;aside&gt;</code></h2>
+            <p>O elemento HTML &lt;aside&gt; representa uma seção de uma página que consiste de conteúdo que é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo. Essas seções são, muitas vezes, representadas como barras laterais.</p>
+            <h3>Exemplo de uso:</h3>
+            <pre>
+            &lt;aside&gt;
+                &lt;h4&gt;Epcot Center&lt;/h4&gt;
+                &lt;p&gt;Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.&lt;/p&gt;
+            &lt;/aside&gt;
+            </pre>
+            <h4>Fonte: <a href="https://www.w3schools.com/tags/tag_aside.asp">w3schools</a></h4>
+        </article>
+    </section>
+    <section id="secao3">
+        <article>
+            <h2>Sobre a Tag <code>&lt;footer&gt;</code></h2>
+            <p>A Tag <code>&lt;footer&gt;</code> responsavel por fazer a seção de rodapé do site, destinada exclusivamente para esta finalidade</p>
+            <h3>Exemplo de uso:</h3>
+            <pre>
+            &lt;footer&gt;
+                &lt;p&gt;Author: Hege Refsnes&lt;/p&gt;
+                &lt;p&gt;&lt;a href="exem:lucas@senai.com">lucas@senai.com&lt;/a&gt;&lt;/p&gt;
+            &lt;/footer&gt;
+            </pre>
+            <h4>Fonte: <a href="https://www.w3schools.com/tags/tag_footer.asp">w3schools</a></h4>
+        </article>
+    </section>
+    <section id="secao4">
+        <article>
+            <h2>Sobre a Tag <code>&lt;blockquote&gt;</code></h2>
+            <p>A tag <code>&lt;blockquote&gt; é utilizada para fazer citações de outros autores dentro do site, mais a utilização do link, mesmo não estando visivil na versão Web, sendo assim, algo mais voltado para as boas práticas.</p>
+            <h3>Exemplo de uso:</h3>
+            <pre>
+            &lt;blockquote cite="<ins>http://www.worldwildlife.org/who/index.html</ins>"&gt;
+                For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+            &lt;/blockquote&gt;
+            </pre>
+            <h4>Fonte: <a href="https://www.w3schools.com/tags/tag_blockquote.asp">w3schools</a></h4>
+        </article>
+    </section>
+    <section id="secao5">
+        <article>
+            <h2>Sobre a Tag <code>&lt;datails&gt;</code></h2>
+            <p>A Tag <code>&lt;datails&gt;</code> é utilizada para "<del>esconder</del>" e "<ins>mostrar</ins>" as informações contidas dentro dele</p>
+            <h3>Exemplo de uso:</h3>
+            <details>
+                <summary>Exemplo</summary>
+                <p>Exemplo <sup>exemplo</sup> <sub>exemplo</sub> exemplo exemplo</p>
+            </details>
+            <pre>
+            &lt;details&gt
+                &lt;summary&gt;Exemplo&lt;/summary&gt;
+                &lt;p&gt;Exemplo exemplo exemplo exemplo exemplo&lt;/p&gt;
+            &lt;/details&gt;
+            </pre>
+            <h4>Fonte: <a href="https://www.w3schools.com/tags/tag_detail.asp">w3schools</a></h4>
+        </article>
+    </section>
+    <section id="secao6">
+        <article>
+            <h2>Sobre a Tag <code>&lt;figure&gt;</code></h2>
+            <p>A Tag <code>&lt;figure&gt;</code> é acompanhada da Tag <code>&lt;figcaption&gt;</code> para por as informações pertencentes a imagem utilizada, mais a Tag <code>&lt;img&gt;</code>, aumenta a utilização e responsividade da <code>&lt;img&gt;</code>.</p>
+            <h3>Exemplo de uso:</h3>
+            <figure>
+                <img src="https://www.computerhope.com/jargon/h/img.png" alt="img" height="60">
+                <figcaption>img</figcaption>
+            </figure>
+            <pre>
+            &lt;figure&gt;
+                &lt;img src="https://www.computerhope.com/jargon/h/img.png" alt="img" height="60"&gt;
+                &lt;figcaption&gt;img&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </pre>
+            <h4>Fonte: <a href="https://www.w3schools.com/tags/tag_figure.asp">w3schools</a></h4>
+        </article>
+    </section>
+    <section id="sobre">
+        <article>
+            <h2>Sobre nós</h2>
+            <p>Meu nome é Lucas, sou de São Paulo, Capital. Estou em transição de carreira, saindo da área de lógistica e indo para de TI, especificamente a de Front-End</p>
+        </article>
+    </section>
+    <footer id="contatos">
+        <article>
+            <h2>Contato</h2>
+            <figure>
+            <a href="https://github.com/LucasSansB"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60"/></a>
+            </figure>
+        </article>
+    </footer>
 </body>
 </html>
