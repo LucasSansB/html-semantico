@@ -1,3 +1,11 @@
 html {
     scroll-behavior: smooth; /* Comportamento-da-rolagem: suave */
 }
+
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+h1, h2, h3, h4, p {
+    color: brown;
+}
