@@ -3,9 +3,52 @@ html {
 }
 
 body {
-    background-color: rgb(48, 48, 48);
+    background-color: #662549;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px; /*diferente de button*/
+    margin: 25px 50px 25px 50px;
+    text-align: justify;
+    padding: 25px;
 }
 
-h1, h2, h3, h4, p {
-    color: brown;
+.titulo-de-artigo {
+    color: #35155D;
+    line-height: 3;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+.titulo-de-pagina {
+    color: #AE445A;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.sub-titulo {
+    color:#AE445A;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+p {
+    color: #F39F5A;
+    line-height: 20px;
+}
+
+a, li, h4, details {
+    color: #F39F5A;
+}
+
+pre {
+    color: #35155D;
+    background-color: #6C4AB6;
+    border:4px ridge #000000;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    margin-bottom: 10px;
+    border-radius: 20px;
 }
