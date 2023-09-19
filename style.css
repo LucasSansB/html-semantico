@@ -106,3 +106,17 @@ article p:last-of-type {
 article p:only-of-type {
     border-radius: 20px 0 20px 0;
 }
+
+section.artigos {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-principal ul {
+    background-color: var(--cor-secundaria);
+    
+}
+
+/* article {
+    width: 25%;
+} */
