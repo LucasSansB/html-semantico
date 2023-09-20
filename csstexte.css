@@ -1,0 +1,107 @@
+:root {
+    --cor-primaria: #5B8FB9;
+    --cor-secundaria: #B6EADA;
+    --cor-terciaria: #F39F5A;
+    --cor-quaternaria: #301E67;
+    --cor-fundo: #03001C;
+    --fonte-primaria: 'Times New Roman', serif;
+    --fonte-secundaria: arial, helvetica;
+}
+
+html {
+    scroll-behavior: smooth; /* comportamento-da-rolagem: suave */
+}
+
+body {
+    margin: 20px 50px;
+    text-align: justify;
+    background-color: var(--cor-fundo);
+}
+
+.titulo-de-pagina {
+    color: var(--cor-primaria);
+    line-height: 2;
+    font-weight: bold;
+    font-size: 22pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font: var(--fonte-secundaria);
+}
+
+.titulo-de-artigo {
+    color: var(--cor-secundaria);
+    line-height: 2;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font: var(--fonte-primaria);
+}
+
+.titulo-de-secao {
+    color:var(--cor-secundaria);
+    line-height: 1.8;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font: var(--fonte-primaria);
+}
+
+.subtitulo-de-artigo {
+    color:var(--cor-terciaria);
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+p {
+    color:var(--cor-primaria);
+    line-height: 1.2;
+}
+
+.paragrafo-de-artigo {
+    background-color: var(--cor-quaternaria);
+    padding: 20px;
+}
+
+.paragrafo-de-artigo ~ .paragrafo-de-artigo {
+    padding-top: 0;
+}
+
+.paragrafo-de-artigo:first-of-type {
+    border-radius: 20px 0 0 0;
+}
+
+.paragrafo-de-artigo:last-of-type {
+    border-radius: 0 0 20px 0;
+}
+
+.paragrafo-de-artigo:only-of-type {
+    border-radius: 20px 0 20px 0;
+}
+
+article {
+    border: 8px solid var(--cor-quaternaria);
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 20px 0 20px 0;
+}
+
+.menu-principal ul {
+    background-color: var(--cor-primaria);
+}
+
+.menu-principal li {
+    color: var(--cor-quaternaria);
+}
+
+.menu-principal a {
+    color: var(--cor-quaternaria);
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
